@@ -20,6 +20,12 @@ h2 {
     color: #fff;
 }
 
+a {
+    color: #0069ff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
 /* NAVBAR */
 .navbar {
     min-height: 63px;
@@ -139,6 +145,17 @@ label {
 
 .ms--ToS p {
     margin-bottom: 0;
+}
+
+/* CUSTOMERS LOGOS */
+#customers-logos {
+    background-color: #f3f5f9;
+    padding: 64px 0;
+}
+
+#customers-logos h2 {
+    font-size: 15px;
+    opacity: 0.5;
 }
 
 .customers-logos > div:not(:last-child) > img {
