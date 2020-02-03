@@ -1,7 +1,26 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: rgba(3,27,78,.7);
 }
 
+header {
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.ms-dark-text {
+    color: #031b4e;
+}
+
+.ms--light-text {
+    color: #fff;
+}
+
+/* NAVBAR */
 .navbar {
     min-height: 63px;
 }
@@ -21,10 +40,54 @@ body {
 .navbar-nav > li > a {
     padding-top: 23px;
     padding-bottom: 20px;
-    background-color:
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     background-color: #fff;
     color: #0069ff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #031b4e;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #0069ff;
+}
+
+.ms--icon::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.ms--submenu-arrow::after {
+    font-weight: 400;
+    font-family: "Font Awesome 5 Free";
+    content: "\f078";
+}
+
+.navbar-nav.navbar-right > li > a {
+    color: #0069ff;
+    font-weight: 700;
+    font-size: 17px;
+    border: 1px solid #0069ff;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    margin: 11.5px 0;
+}
+
+.navbar-nav.navbar-right > li > a:hover {
+    color: #fff;
+    background-color: #0069ff;
+}
+
+
+/* HEADER */
+header .ms--white-text p {
+    font-size: 24px;
+    opacity: .8;
 }
