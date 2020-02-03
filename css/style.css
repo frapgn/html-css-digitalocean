@@ -10,6 +10,14 @@ h1 {
 
 h2 {
     font-weight: 700;
+    font-size: 36px;
+    color: #031b4e;
+    margin: 0 0 16px;
+}
+
+h3 {
+    color: #031b4e;
+    font-size: 20px;
 }
 
 .ms-dark-text {
@@ -18,6 +26,14 @@ h2 {
 
 .ms--light-text {
     color: #fff;
+}
+
+.ms--md-text {
+    font-size: 21px;
+}
+
+.ms--sm-text {
+    font-size: 17px;
 }
 
 a {
@@ -106,10 +122,6 @@ header .ms--light-text p {
     opacity: .8;
 }
 
-.ms--col-h1 { /* media query desktop */
-    top: 100px;
-}
-
 .ms--box-h1,
 .ms--box-form {
     padding: 25px;
@@ -119,6 +131,11 @@ form {
     background-color: #fff;
     padding: 30px;
     border-radius: 5px;
+}
+
+form h2 {
+    font-size: 30px;
+    margin: 15px 0 32px;
 }
 
 label {
@@ -145,6 +162,13 @@ label {
 
 .ms--ToS p {
     margin-bottom: 0;
+    font-size: 13px;
+}
+
+.ms--ToS a {
+    font-weight: 400;
+    font-size: 13px;
+    text-decoration: underline;
 }
 
 /* CUSTOMERS LOGOS */
@@ -156,6 +180,7 @@ label {
 #customers-logos h2 {
     font-size: 15px;
     opacity: 0.5;
+    margin-bottom: 16px;
 }
 
 .customers-logos > div:not(:last-child) > img {
@@ -164,7 +189,94 @@ label {
 
 .splunk {
     height: 37px;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
-/* ---- */
+.ms--cta-customers-logos {
+    margin-top: 16px;
+}
+
+/* SERVICES CONFIGURATION */
+#services-configuration {
+    padding: 90px 0 70px;
+}
+
+#services-configuration .row:first-child {
+    margin-bottom: 40px;
+}
+
+/* vertical list */
+.ms--vertical-list li {
+    padding: 16px 0 16px 30px;
+
+}
+
+.ms--vertical-list li:first-child {
+    border-color: #0069ff;
+}
+
+.ms--vertical-list a {
+    color: rgba(3,27,78,.5);
+}
+
+.ms--vertical-list a:hover {
+    color: #0069ff;
+    text-decoration: none;
+}
+
+/* media queries */
+@media screen and (min-width: 1200px) {
+    .ms--col-h1 { /* non mi piaceva la regola del sito originale */
+        top: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .ms--vertical-list li {
+        border-left: 2px solid #e5e8ed;
+    }
+
+    .ms--vertical-list li:hover {
+        border-left: 2px solid #0069ff;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .ms--vertical-list ul {
+        display: block;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .ms--vertical-list ul li {
+        display: inline-block;
+    }
+
+    .ms--vertical-list li {
+        padding: 0 2px 2px;;
+        margin: 0 5px;
+        border-bottom: 2px solid #e5e8ed;
+    }
+
+    .ms--vertical-list li:hover {
+        border-bottom: 2px solid #0069ff;
+    }
+
+    .ms--vertical-list a {
+        font-size: 20px;
+    }
+}
+
+
+
+/*
+
+
+
+ ----
+
+
+
+*/
