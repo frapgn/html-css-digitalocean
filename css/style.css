@@ -12,6 +12,10 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    font-weight: 700;
+}
+
 .ms-dark-text {
     color: #031b4e;
 }
@@ -87,7 +91,37 @@ h1 {
 
 
 /* HEADER */
-header .ms--white-text p {
+header .ms--light-text p {
     font-size: 24px;
     opacity: .8;
 }
+
+.ms--box-h1,
+.ms--box-form {
+    padding: 25px;
+}
+
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+label {
+    display: none;
+}
+
+.form-control {
+    height: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---- */
