@@ -1,0 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    min-height: 63px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    height: 63px;
+}
+
+.navbar-brand svg {
+    fill: #0069ff;
+}
+
+.navbar-nav > li > a {
+    padding-top: 23px;
+    padding-bottom: 20px;
+    background-color:
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #fff;
+    color: #0069ff;
+}
