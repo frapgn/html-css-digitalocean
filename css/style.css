@@ -31,6 +31,8 @@ h2 {
 
 .navbar-default {
     background-color: #fff;
+    margin-bottom: 0;
+    border-bottom: 0;
 }
 
 .navbar-brand {
@@ -115,12 +117,23 @@ label {
     height: 48px;
 }
 
+.ms--divider-box {
+    margin: 16px 0;
+}
 
+.ms--divider {
+    border-top: 1px solid #e5e8ed;
+    width: 100%;
+    margin: 10px 0;
+}
 
+.ms--ToS {
+    margin-top: 30px;
+}
 
-
-
-
+.ms--ToS p {
+    margin-bottom: 0;
+}
 
 
 
