@@ -3,10 +3,6 @@ body {
     color: rgba(3,27,78,.7);
 }
 
-header {
-    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
-}
-
 h1 {
     font-weight: 700;
     font-size: 60px;
@@ -93,9 +89,19 @@ h2 {
 
 
 /* HEADER */
+header {
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-position: center;
+    padding: 90px 0 70px;
+}
+
 header .ms--light-text p {
     font-size: 24px;
     opacity: .8;
+}
+
+.ms--col-h1 { /* media query desktop */
+    top: 100px;
 }
 
 .ms--box-h1,
@@ -135,6 +141,13 @@ label {
     margin-bottom: 0;
 }
 
+.customers-logos > div:not(:last-child) > img {
+    height: 77px;
+}
 
+.splunk {
+    height: 37px;
+    margin: 20px 0;
+}
 
 /* ---- */
