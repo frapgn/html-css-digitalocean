@@ -294,6 +294,17 @@ label {
     width: 40px;
 }
 
+/********** DATA CENTERS **********/
+#data-centers {
+    background-color: #031b4e;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
+}
+
+.ms--server-id {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
 /********** MEDIA QUERIES **********/
 @media screen and (min-width: 1200px) {
