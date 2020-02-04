@@ -37,6 +37,10 @@ h3 {
     font-size: 17px;
 }
 
+.ms--xs-text {
+    font-size: 13px;
+}
+
 .ms--bg-grey {
     background-color: #f3f5f9;
 }
@@ -49,6 +53,10 @@ h3 {
     margin-bottom: 20px;
 }
 
+.ms--bottom-space-0 {
+    margin-bottom: 0px;
+}
+
 .ms--section-space {
     padding: 90px 0;
 }
@@ -59,6 +67,49 @@ a {
     font-size: 16px;
 }
 
+a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
+.ms--link-arrow::after {
+    font-size: 10px;
+    padding: 0 10px 0 5px;
+    position: relative;
+    bottom: 1px;
+}
+
+cite {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(3,27,78,.5);
+}
+
+ol {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+}
+
+ol li {
+    display: inline-block;
+    border: 2px solid #0069ff;
+    border-radius: 50px;
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+}
+
+ol li:hover {
+    background-color: rgba(0, 105, 255, 0.45);
+    cursor: pointer;
+}
+
+ol li:nth-child(2) {
+    background-color: #0069ff;
+}
 
 /********** NAVBAR **********/
 .navbar {
@@ -334,11 +385,14 @@ label {
     color: #00d7d2;
     font-size: 10px;
     padding: 0 10px 0 7px;
+    position: relative;
+    bottom: 1px;
+}
 }
 
 /********** TESTIMONIALS **********/
 
-.ms--big-link {
+#testimonials .ms--big-link {
     font-size: 21px;
     font-weight: 400;
     text-decoration: underline;
@@ -348,6 +402,38 @@ label {
     background-color: #f3f5f9;
 }
 
+.ms--slide {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px;
+    border: 1px solid #e5e8ed;
+}
+
+.ms--slide img {
+    max-width: 175px;
+}
+
+.ms--slide p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.ms--slide-arrows.ms--fa-chevron-right::after {
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+.ms--slide-arrows.ms--fa-chevron-left::before {
+    position: absolute;
+    top: 50%;
+    right: 105%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
 
 /********** MEDIA QUERIES **********/
 @media screen and (min-width: 1200px) {
@@ -403,8 +489,10 @@ label {
         font-size: 20px;
     }
 
-    .ms--fa-chevron-left::before,
-    .ms--fa-chevron-right::after {
+    .ms--slide-arrows.ms--fa-chevron-left::before,
+    .ms--slide-arrows.ms--fa-chevron-right::after,
+    .ms--slide-arrows.ms--fa-chevron-left::before,
+    .ms--slide-arrows.ms--fa-chevron-right::after {
         display: none;
     }
 
@@ -447,3 +535,6 @@ label {
 
 
 */
+.hhhhh {
+    height: 1000px;
+}
