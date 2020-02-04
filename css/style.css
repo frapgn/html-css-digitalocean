@@ -53,6 +53,10 @@ a {
     border-bottom: 0;
 }
 
+.navbar-default .navbar-toggle {
+    margin-top: 14px;
+}
+
 .navbar-brand {
     height: 63px;
 }
@@ -201,9 +205,17 @@ label {
     padding: 90px 0 70px;
 }
 
-#services-configuration .row:first-child {
+.services-configuration > .row:first-child {
     margin-bottom: 40px;
 }
+
+.ms--col-icons > .row > div {
+    margin-bottom: 40px;
+}
+
+/* .ms--col-icons > .row {
+    margin-bottom: 40px;
+} */
 
 /* vertical list */
 .ms--vertical-list li {
@@ -255,7 +267,7 @@ label {
     }
 
     .ms--vertical-list li {
-        padding: 0 2px 2px;;
+        padding: 0 2px 2px;
         margin: 0 5px;
         border-bottom: 2px solid #e5e8ed;
     }
@@ -266,6 +278,16 @@ label {
 
     .ms--vertical-list a {
         font-size: 20px;
+    }
+
+    .ms--h3-icon {
+        margin: 0 0 0 10px;
+    }
+
+    .ms--icon,
+    .ms--h3-icon {
+        vertical-align: middle;
+        display: inline-block;
     }
 }
 
