@@ -50,7 +50,7 @@ h3 {
 }
 
 .ms--section-space {
-    padding: 64px 0;
+    padding: 90px 0;
 }
 
 a {
@@ -300,10 +300,40 @@ label {
     background-image: url('https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg');
 }
 
+#data-centers li {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 11px;
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+}
+
 .ms--server-id {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
+    padding-right: 10%;
+
+}
+
+.ms--location {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+}
+
+.ms--test-speed-link {
+    float: right;
+}
+
+#data-centers a {
+    color: #00d7d2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#data-centers .ms--fa-chevron-right::after {
+    color: #00d7d2;
+    font-size: 10px;
+    padding: 0 10px 0 7px;
 }
 
 /********** MEDIA QUERIES **********/
