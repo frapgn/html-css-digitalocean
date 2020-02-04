@@ -41,6 +41,14 @@ h3 {
     background-color: #f3f5f9;
 }
 
+.ms--space-bottom-40 {
+    margin-bottom: 40px;
+}
+
+.ms--space-bottom-20 {
+    margin-bottom: 20px;
+}
+
 a {
     color: #0069ff;
     font-weight: 500;
@@ -87,20 +95,6 @@ a {
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
     color: #0069ff;
 }
-
-/* .ms--icon::after {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
-
-.ms--submenu-arrow::after {
-    font-weight: 400;
-    font-family: "Font Awesome 5 Free";
-    content: "\f078";
-} */
 
 .navbar-nav.navbar-right > li > a {
     color: #0069ff;
@@ -251,19 +245,39 @@ label {
     border-radius: 5px;
 }
 
-.ms--col-des4dev {
-    
-}
 
-/* .ms--col-des4dev i.fas.fa-chevron-left {
+/*********** test icon ***********/
+.ms--fw-icon::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+.ms--fa-chevron-right::after {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
     position: absolute;
-    left: 50%;
-    bottom: 50%;
-} */
-
-#designed-for-developers .fa-chevron-right {
-
+    top: 50%;
+    left: 105%;
+    transform: translateY(-50%);
+    font-size: 30px;
 }
+
+.ms--fa-chevron-left::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f053";
+    position: absolute;
+    top: 50%;
+    right: 105%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+/*********** test icon ***********/
+
 
 /* media queries */
 @media screen and (min-width: 1200px) {
