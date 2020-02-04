@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: rgba(3,27,78,.7);
+    padding-top: 63px;
 }
 
 h1 {
@@ -34,6 +35,10 @@ h3 {
 
 .ms--sm-text {
     font-size: 17px;
+}
+
+.ms--bg-grey {
+    background-color: #f3f5f9;
 }
 
 a {
@@ -83,7 +88,7 @@ a {
     color: #0069ff;
 }
 
-.ms--icon::after {
+/* .ms--icon::after {
     display: inline-block;
     font-style: normal;
     font-variant: normal;
@@ -95,7 +100,7 @@ a {
     font-weight: 400;
     font-family: "Font Awesome 5 Free";
     content: "\f078";
-}
+} */
 
 .navbar-nav.navbar-right > li > a {
     color: #0069ff;
@@ -105,7 +110,7 @@ a {
     padding-top: 9px;
     padding-bottom: 9px;
     border-radius: 5px;
-    margin: 11.5px 0;
+    margin: 11.5px;
 }
 
 .navbar-nav.navbar-right > li > a:hover {
@@ -177,7 +182,6 @@ label {
 
 /* CUSTOMERS LOGOS */
 #customers-logos {
-    background-color: #f3f5f9;
     padding: 64px 0;
 }
 
@@ -189,11 +193,13 @@ label {
 
 .customers-logos > div:not(:last-child) > img {
     height: 77px;
+    object-fit: contain;
 }
 
 .splunk {
     height: 37px;
     margin: 20px auto;
+    object-fit: contain;
 }
 
 .ms--cta-customers-logos {
@@ -234,6 +240,29 @@ label {
 .ms--vertical-list a:hover {
     color: #0069ff;
     text-decoration: none;
+}
+
+/* DESIGNED FOR DEVELOPERS */
+#designed-for-developers {
+    padding: 90px 0;
+}
+
+#designed-for-developers img {
+    border-radius: 5px;
+}
+
+.ms--col-des4dev {
+    
+}
+
+/* .ms--col-des4dev i.fas.fa-chevron-left {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+} */
+
+#designed-for-developers .fa-chevron-right {
+
 }
 
 /* media queries */

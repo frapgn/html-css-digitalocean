@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DigitalOcean</title>
+        <link rel="shortcut icon" href="img/digitalocean-icon.png">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="fontawesome/css/all.css">
         <!-- <script src="https://kit.fontawesome.com/eb054ca6c4.js" crossorigin="anonymous"></script> -->
@@ -11,7 +12,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -29,11 +30,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a class="ms--icon ms--submenu-arrow" href="#">Products<span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="#">Products <i class="fas fa-angle-down"></i></a></li>
                         <li><a href="#">Marketplace</a></li>
                         <li><a href="#">Customers</a></li>
                         <li><a href="#">Partners</a></li>
-                        <li><a class="ms--icon ms--submenu-arrow" href="#">Community</a></li>
+                        <li><a href="#">Community <i class="fas fa-angle-down"></i></a></li>
                         <li><a href="#">Pricing</a></li>
                     </ul>
 
@@ -91,31 +92,31 @@
                 </div>
             </div>
         </header>
-        <section id="customers-logos">
+        <section id="customers-logos" class="ms--bg-grey">
             <div class="container">
                 <h2 class="text-center text-uppercase">Innovative businesses trust DigitalOcean</h2>
                 <div class="row customers-logos">
-                    <div class="col-md-2 col-xs-6">
+                    <div class="col-xs-6 col-md-2">
                         <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/docker-bab60eeb.png" alt="Docker">
                     </div>
-                    <div class="col-md-2 col-xs-6">
+                    <div class="col-xs-6 col-md-2">
                         <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/gitlab-166e2067.png" alt="">
                     </div>
-                    <div class="col-md-2 col-xs-6">
+                    <div class="col-xs-6 col-md-2">
                         <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/slack-e20293da.png" alt="">
                     </div>
-                    <div class="col-md-2 col-xs-6">
+                    <div class="col-xs-6 col-md-2">
                         <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/hashicorp-4431df79.png" alt="">
                     </div>
-                    <div class="col-md-2 col-xs-6">
+                    <div class="col-xs-6 col-md-2">
                         <img class="img-responsive center-block" src="https://www.digitalocean.com/assets/media/homepage/logos/wework-be6eab32.png" alt="">
                     </div>
-                    <div class="col-md-2 col-xs-6">
+                    <div class="col-xs-6 col-md-2">
                         <img class="img-responsive center-block splunk" src="https://www.digitalocean.com/assets/media/homepage/logos/splunk-06b17d75.png" alt="">
                     </div>
                 </div>
                 <div class="ms--cta-customers-logos text-center">
-                    <a href="#">See business solutions</a> <!-- studiare icona come after / unicode -->
+                    <a href="#">See business solutions <i class="fas fa-chevron-right"></i></a> <!-- studiare icona come after / unicode -->
                 </div>
             </div>
         </section>
@@ -123,7 +124,7 @@
             <div class="container services-configuration">
                 <div class="row">
                     <div class="col-xs-12 text-center">
-                        <h2> Deploy and scale seamlessly </h2>
+                        <h2>Deploy and scale seamlessly</h2>
                         <p class="ms--md-text"> Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments. </p>
                     </div>
                 </div>
@@ -170,6 +171,29 @@
                                 <p class="ms--sm-text">Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more. </p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="designed-for-developers" class="ms--bg-grey text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+                        <h2>Designed for developers</h2>
+                        <p class="ms--md-text">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="hidden-xs col-sm-1">
+                        <div class="ms--col-des4dev">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-10">
+                        <img class="img-responsive" src="https://www.digitalocean.com/assets/media/homepage/screenshot-create-kubernetes-cluster-4a930955.jpg" alt="">
+                    </div>
+                    <div class="hidden-xs col-sm-1">
+                        <i class="fas fa-chevron-right"></i>
                     </div>
                 </div>
             </div>
