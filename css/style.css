@@ -336,10 +336,19 @@ label {
     padding: 0 10px 0 7px;
 }
 
+/********** TESTIMONIALS **********/
+
+.ms--big-link {
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: underline;
+}
 
 #testimonials {
     background-color: #f3f5f9;
 }
+
+
 /********** MEDIA QUERIES **********/
 @media screen and (min-width: 1200px) {
 
