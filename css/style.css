@@ -336,6 +336,10 @@ label {
     padding: 0 10px 0 7px;
 }
 
+
+#testimonials {
+    background-color: #f3f5f9;
+}
 /********** MEDIA QUERIES **********/
 @media screen and (min-width: 1200px) {
 
@@ -354,6 +358,13 @@ label {
         border-left: 2px solid #0069ff;
     }
 
+}
+
+@media screen and (max-width: 991px) {
+
+    .ms--no-border-bottom {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 767px) {
