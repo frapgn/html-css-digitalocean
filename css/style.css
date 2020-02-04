@@ -41,12 +41,16 @@ h3 {
     background-color: #f3f5f9;
 }
 
-.ms--space-bottom-40 {
+.ms--bottom-space-40 {
     margin-bottom: 40px;
 }
 
-.ms--space-bottom-20 {
+.ms--bottom-space-20 {
     margin-bottom: 20px;
+}
+
+.ms--section-space {
+    padding: 64px 0;
 }
 
 a {
@@ -55,7 +59,8 @@ a {
     font-size: 16px;
 }
 
-/* NAVBAR */
+
+/********** NAVBAR **********/
 .navbar {
     min-height: 63px;
 }
@@ -113,7 +118,7 @@ a {
 }
 
 
-/* HEADER */
+/********** HEADER **********/
 header {
     background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
     background-position: center;
@@ -174,7 +179,8 @@ label {
     text-decoration: underline;
 }
 
-/* CUSTOMERS LOGOS */
+
+/********** CUSTOMERS LOGOS **********/
 #customers-logos {
     padding: 64px 0;
 }
@@ -200,7 +206,8 @@ label {
     margin-top: 16px;
 }
 
-/* SERVICES CONFIGURATION */
+
+/********** SERVICES CONFIGURATION **********/
 #services-configuration {
     padding: 90px 0 70px;
 }
@@ -236,17 +243,13 @@ label {
     text-decoration: none;
 }
 
-/* DESIGNED FOR DEVELOPERS */
-#designed-for-developers {
-    padding: 90px 0;
-}
-
+/********** DESIGNED FOR DEVELOPERS **********/
 #designed-for-developers img {
     border-radius: 5px;
 }
 
 
-/*********** test icon ***********/
+/* test icon */
 .ms--fw-icon::after {
     display: inline-block;
     font-style: normal;
@@ -259,6 +262,15 @@ label {
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     content: "\f054";
+}
+
+.ms--fa-chevron-left::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f053";
+}
+
+#designed-for-developers .ms--fa-chevron-right::after {
     position: absolute;
     top: 50%;
     left: 105%;
@@ -266,21 +278,26 @@ label {
     font-size: 30px;
 }
 
-.ms--fa-chevron-left::before {
-    font-weight: 900;
-    font-family: "Font Awesome 5 Free";
-    content: "\f053";
+#designed-for-developers .ms--fa-chevron-left::before {
     position: absolute;
     top: 50%;
     right: 105%;
     transform: translateY(-50%);
     font-size: 30px;
 }
-/*********** test icon ***********/
+/* test icon */
 
 
-/* media queries */
+/********** BUILT FOR BUSINES **********/
+.www-Icon--xlarge {
+    height: 40px;
+    width: 40px;
+}
+
+
+/********** MEDIA QUERIES **********/
 @media screen and (min-width: 1200px) {
+
     .ms--col-h1 { /* non mi piaceva la regola del sito originale */
         top: 100px;
     }
@@ -299,6 +316,8 @@ label {
 }
 
 @media screen and (max-width: 767px) {
+
+    /* orizontal li */
     .ms--vertical-list ul {
         display: block;
         text-align: center;
@@ -323,18 +342,40 @@ label {
         font-size: 20px;
     }
 
-    .ms--h3-icon {
+    .ms--fa-chevron-left::before,
+    .ms--fa-chevron-right::after {
+        display: none;
+    }
+
+    /* vertical align svg icons + h3 */
+    #services-configuration .ms--h3-icon {
         margin: 0 0 0 10px;
     }
 
-    .ms--icon,
-    .ms--h3-icon {
+    #services-configuration .ms--icon,
+    #services-configuration .ms--h3-icon {
         vertical-align: middle;
         display: inline-block;
     }
 }
 
+@media screen and (max-width: 479px) {
 
+    .ms--col-xxs-12 {
+        width: calc((100% / 12) * 12);
+    }
+
+    /* vertical align svg icons + h3 */
+    #built-for-business .ms--h3-icon {
+        margin: 0 0 0 10px;
+    }
+
+    #built-for-business .ms--icon,
+    #built-for-business .ms--h3-icon {
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
 
 /*
 
