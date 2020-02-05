@@ -694,6 +694,11 @@ footer .ms--text-beside-svg {
 
 @media screen and (max-width: 425px) {
 
+    .ms--box-h1,
+    .ms--box-form {
+        padding: 0 0 20px 0;
+    }
+
     h1 {
         font-size: 40px;
     }
