@@ -68,7 +68,7 @@ a {
 }
 
 a:hover {
-    color: #1633ff;
+    color: #005fe6;
     text-decoration: none;
 }
 
@@ -115,6 +115,7 @@ ol li:nth-child(2) {
 /********** NAVBAR **********/
 .navbar {
     min-height: 63px;
+    box-shadow: 0 2px 4px rgba(3,27,78,.1);
 }
 
 .navbar-default {
@@ -138,6 +139,7 @@ ol li:nth-child(2) {
 .navbar-nav > li > a {
     padding-top: 23px;
     padding-bottom: 20px;
+    font-size: 15px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
@@ -153,6 +155,12 @@ ol li:nth-child(2) {
     color: #0069ff;
 }
 
+/* dropdown icon*/
+.fa-angle-down {
+    position: relative;
+    top: 1px;
+}
+/* end */
 .navbar-nav.navbar-right > li > a {
     color: #0069ff;
     font-weight: 700;
@@ -204,6 +212,39 @@ label {
 
 .form-control {
     height: 48px;
+}
+
+.ms--btn-create-account {
+    background-color: #0069ff;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+}
+
+.ms--btn-create-account:hover {
+    background-color: #1633ff;
+    color: #fff;
+}
+
+.ms--btn-social-access {
+    position: relative;
+    background-color: #f2f8ff;
+    border: 1px solid #c2dbff;
+    color: #000;
+    font-weight: 700;
+}
+
+.ms--btn-social-access:hover {
+    background-color: #d5e4f7;
+    border-color: #aacbf9;
+}
+
+.ms--btn-social-access svg {
+    left: 16px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .ms--divider-box {
