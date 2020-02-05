@@ -241,8 +241,8 @@ label {
 }
 
 .ms--btn-social-access svg {
-    left: 16px;
     position: absolute;
+    left: 16px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -688,6 +688,44 @@ footer .ms--text-beside-svg {
     #built-for-business .ms--h3-icon {
         vertical-align: middle;
         display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .ms--btn-social-access {
+        /* padding-right: 1px; */
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .ms--btn-social-access {
+        font-size: 15px;
+    }
+
+    .ms--btn-social-access svg {
+        position: absolute;
+        left: 10%;
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .ms--btn-social-access  {
+        padding: 5px;
+    }
+
+    .ms--btn-social-access svg {
+        display: none;
     }
 
 }
