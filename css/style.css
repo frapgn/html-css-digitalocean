@@ -467,7 +467,7 @@ label {
 
 footer {
     background-color: #010e28;
-    padding: 100px 0 72px;
+    padding: 96px 0 96px;
 }
 
 dt {
@@ -487,12 +487,81 @@ dd a {
 dd a:hover {
     color: #fff;
 }
+
+footer p {
+    color: hsla(0,0%,100%,.5);
+    font-size: 15px;
+}
+
+/* sub footer */
+.sub-footer {
+    margin-top: 64px;
+    border-top: 1px solid #343e53;
+}
+
+.ms--copyright {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.ms--social-icons {
+    text-align: center;
+    margin-top: 32px;
+}
+
+/* align svg + text */
+footer .ms--text-beside-svg {
+    margin: 0 0 0 17px;
+}
+
+footer .ms--svg-icon,
+footer .ms--text-beside-svg {
+    vertical-align: middle;
+    display: inline-block;
+}
+/* end */
+
+.ms--social-icons ul {
+    display: inline;
+    padding-left: 0;
+}
+
+.ms--social-icons li {
+    display: inline-block;
+}
+
+.ms--social-icons li {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.ms--social-icons .fab {
+    font-size: 20px;
+}
+
+.ms--social-icons a {
+    color: #808794;
+}
+.ms--social-icons a:hover {
+    color: #fff;
+}
+
 /********** MEDIA QUERIES **********/
 @media screen and (min-width: 1200px) {
 
     .ms--col-h1 { /* non mi piaceva la regola del sito originale */
         top: 100px;
     }
+}
+
+@media screen and (min-width: 992px) {
+
+    .ms--copyright {
+        text-align: left;
+    }
+
+    .ms--social-icons {
+        text-align: right;
 }
 
 @media screen and (min-width: 768px) {
