@@ -85,6 +85,7 @@ cite {
     font-weight: 500;
     font-size: 16px;
     color: rgba(3,27,78,.5);
+    letter-spacing: 0.5px;
 }
 
 ol {
@@ -435,6 +436,57 @@ label {
     font-size: 30px;
 }
 
+
+/********** GET STARTED NOW **********/
+#get-started-now {
+    padding: 72px 0;
+    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-position: 10% bottom;
+}
+
+#get-started-now p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ms--btn-footer {
+    background-color: #fff;
+    color: #0069ff;
+    padding: 10px 25px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.ms--btn-footer:hover {
+    color: #0069ff;
+    opacity: .7;
+}
+
+
+/********** FOOTER **********/
+
+footer {
+    background-color: #010e28;
+    padding: 100px 0 72px;
+}
+
+dt {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+dd a {
+    color: hsla(0,0%,100%,.5);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+dd a:hover {
+    color: #fff;
+}
 /********** MEDIA QUERIES **********/
 @media screen and (min-width: 1200px) {
 
