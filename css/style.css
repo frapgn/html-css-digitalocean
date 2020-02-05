@@ -161,6 +161,7 @@ ol li:nth-child(2) {
     top: 1px;
 }
 /* end */
+
 .navbar-nav.navbar-right > li > a {
     color: #0069ff;
     font-weight: 700;
@@ -320,7 +321,6 @@ label {
 /* vertical list */
 .ms--vertical-list li {
     padding: 16px 0 16px 30px;
-
 }
 
 .ms--vertical-list li:first-child {
@@ -529,10 +529,6 @@ dd a:hover {
     color: #fff;
 }
 
-footer p {
-    color: hsla(0,0%,100%,.5);
-    font-size: 15px;
-}
 
 /* sub footer */
 .sub-footer {
@@ -543,6 +539,10 @@ footer p {
 .ms--copyright {
     text-align: center;
     margin-top: 32px;
+}
+
+.ms--copyright p {
+    color: hsla(0,0%,100%,.5);
 }
 
 .ms--social-icons {
@@ -583,6 +583,7 @@ footer .ms--text-beside-svg {
 .ms--social-icons a {
     color: #808794;
 }
+
 .ms--social-icons a:hover {
     color: #fff;
 }
@@ -603,6 +604,8 @@ footer .ms--text-beside-svg {
 
     .ms--social-icons {
         text-align: right;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -619,7 +622,7 @@ footer .ms--text-beside-svg {
 
 @media screen and (max-width: 991px) {
 
-    .ms--no-border-bottom {
+    .ms--no-margin-bottom {
         margin-bottom: 0;
     }
 }
@@ -686,6 +689,7 @@ footer .ms--text-beside-svg {
         vertical-align: middle;
         display: inline-block;
     }
+
 }
 
 /*
@@ -697,6 +701,3 @@ footer .ms--text-beside-svg {
 
 
 */
-.hhhhh {
-    height: 1000px;
-}
