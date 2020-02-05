@@ -728,6 +728,9 @@ footer .ms--text-beside-svg {
         display: none;
     }
 
+    .ms--btn-create-account {
+        font-size: 16px;
+    }
 }
 
 /*
