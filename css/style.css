@@ -651,7 +651,7 @@ footer .ms--text-beside-svg {
     }
 
     .ms--vertical-list a {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .ms--slide-arrows.ms--fa-chevron-left::before,
@@ -721,7 +721,10 @@ footer .ms--text-beside-svg {
         height: 15px;
         width: 15px;
     }
-}
+
+    .ms--vertical-list li {
+        margin: 0;
+    }
 
 @media screen and (max-width: 320px) {
 
