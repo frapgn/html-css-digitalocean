@@ -400,12 +400,16 @@ label {
     border-bottom: 1px solid hsla(0,0%,100%,.2);
 }
 
+
 .ms--server-id {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
     padding-right: 10%;
+}
 
+.ms--server-id.ms--ugly-patch {
+    padding-right: 8%;
 }
 
 .ms--location {
