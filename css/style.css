@@ -181,8 +181,9 @@ ol li:nth-child(2) {
 
 /********** HEADER **********/
 header {
-    background-image: url('https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg');
+    background-image: url('../img/background-header.svg');
     background-position: center;
+    background-size: cover;
     padding: 90px 0 70px;
 }
 
